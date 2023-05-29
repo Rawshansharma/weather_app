@@ -13,26 +13,17 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App input{
+  padding: 8px 10px;
+  margin-right: 20px;
+}
+.App button{
+  padding: 8px 10px ;
+
+}
+.App button:hover{
+  cursor: pointer;
+  background-color: rgb(26, 161, 161);
+  border: 2px solid rgb(38, 82, 60);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
