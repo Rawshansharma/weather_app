@@ -26,7 +26,7 @@ function App() {
        <button onClick={searchPressed} >Search</button>
          {
           weather.main && (
-            <div>
+            <div className='main-text'>
                
               <p>City : {weather.name}</p>
               <p>Temp : {Math.round(weather.main.temp)}</p>

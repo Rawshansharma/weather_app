@@ -33,3 +33,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.main-text p{
+   font-size: 20px;
+   color: rgb(31, 55, 127);
+}
