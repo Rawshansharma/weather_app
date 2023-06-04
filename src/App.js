@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './App.css';
- 
+  
 const api = {
     key:`e15abbf83e320d4516fd450b74f69d67`,
     base:"https://api.openweathermap.org/data/2.5/",
@@ -28,10 +28,10 @@ function App() {
           weather.main && (
             <div className='main-text'>
                
-              <p>City : {weather.name}</p>
-              <p>Temp : {Math.round(weather.main.temp)}</p>
-              <p>Humidity : {weather.main.humidity}%</p>
-              <p>Description : {weather.weather[0].description}</p>
+              <p>🌇 City : {weather.name}</p>
+              <p>🔥 Temp : {Math.round(weather.main.temp)}</p>
+              <p>🌧 Humidity : {weather.main.humidity}%</p>
+              <p>🌨 Description : {weather.weather[0].description}</p>
             </div>
           )
          }

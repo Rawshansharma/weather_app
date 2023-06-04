@@ -1,6 +1,13 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
 .App {
   text-align: center;
-}
+  background-image: url('https://nordicapis.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App.png');
+  background-size: cover;
+  height: 100vh;
+ }
 
 .App-logo {
   height: 40vmin;
@@ -18,16 +25,19 @@
   margin-right: 20px;
 }
 .App button{
+  margin-top: 20px;
   padding: 8px 10px ;
+
 
 }
 .App button:hover{
-  cursor: pointer;
+   cursor: pointer;
   background-color: rgb(26, 161, 161);
   border: 2px solid rgb(38, 82, 60);
   color: white;
 }
 .App h1{
+  padding-top: 40px;
   font-size: 42px;
   background: -webkit-linear-gradient(#eee, #4f6924);
   -webkit-background-clip: text;
@@ -35,5 +45,6 @@
 }
 .main-text p{
    font-size: 20px;
+   padding: 20px;
    color: rgb(31, 55, 127);
 }
